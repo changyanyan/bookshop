@@ -1,0 +1,360 @@
+@charset "utf-8";
+
+/*初始化css*/
+html {
+    font:12px "宋体","SimSun","Arial Narrow";color:#535353;}
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {margin:0;padding:0;}
+.decolor {filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter:grayscale(1);}
+.black-trans {background:rgba(0, 0, 0, 0.6);filter:progid:DXImageTransform.Microsoft.gradient(GradientType = 0,startColorstr = '#60000000',endColorstr = '#60000000');}
+fieldset, img {border:none;}
+img {display:block;vertical-align:middle;}
+table {border-collapse:collapse;border-spacing:0;}
+address, caption, cite, code, dfn, th, var, em {font-style:normal;font-weight:normal;}
+ul, ol {list-style:none;}
+li {list-style-type:none;}
+h1, h2, h3, h4, h5, h6 {font-size:inherit;font-weight:normal;}
+input,select,textarea,button {outline:none;margin:0;padding:0;font-family:"宋体";font-size:12px;color:#535353;}
+input::-moz-focus-inner {border:none;padding:0;}
+select, input {vertical-align:middle;}
+input[type="text"], input[type="password"], textarea {outline-style:none;-webkit-appearance:none;}
+textarea {resize:none;}
+
+a {outline:none;text-decoration:none;color:#535353;}
+a:hover {text-decoration:none;color:#eb6100;}
+.zm {zoom:1;}
+.none {display:none;}
+.db {display:block;}
+.di {display:inline;}
+.fl {float:left;display:inline;}
+.fr {float:right;display:inline;}
+.tl {text-align:left;}
+.tr {text-align:right;}
+.tc {text-align:center;}
+.clear {clear:both;}
+.clearfix:after {content:'';display:block;height:0;visibility:hidden;clear:both;}
+.clearfix {zoom:1;}
+.f12 {font-size:12px;}
+.f14 {font-size:14px;}
+.f16 {font-size:16px;}
+.fw {font-weight:700;}
+.ti2 {text-indent:2em;}
+.m4 {height:4px;clear:both;}
+.m6 {height:6px;clear:both;}
+.m10 {height:10px;clear:both;}
+.m12 {height:12px;clear:both;}
+.m20 {height:20px;clear:both;}
+.m40 {height:40px;clear:both;}
+ /*初始化css结束*/
+body{background:pink;}
+ /*注册 登录样式*/
+.header-top{
+    height:27px;
+    margin:0 auto;
+    border-bottom:1px solid yellow ;
+    background:#f5f4f0;
+} 
+.head-top{
+    width:1350px;
+    height:27px;
+    margin:0 auto;
+    line-height:27px;
+}
+.head-top span{
+    float:right;
+} 
+   /*logo样式*/
+.head{
+    width:1350px;
+    height:130px;
+    position:relative;
+}
+.logo{
+    position:absolute;
+    left:0;
+    top:30px;
+}  
+/*搜索框样式*/
+.seach{
+    width:648px;
+    height:48px;
+    background:url(../img/sea-bg.jpg) top center no-repeat;
+    position:absolute;
+    top:56px;
+    left:280px;
+}
+
+/*动态创建select样式未写*/
+
+
+.sea-inp-box{
+    width:424px;
+    height:40px;
+    float:left;
+    margin:4px;
+    display:inline;
+}
+.sea-inp{
+    width:420px;
+    height:40px;
+    padding-left:4px;
+    line-height:40px;
+    border:0;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color:#666;
+}
+.sea-but{
+    width:68px;
+    height:40px;
+    float:right;
+    margin:4px 5px 0 0;
+    display:inline;
+}
+.gj-sea{
+    position:absolute;
+    left:940px;
+    top:70px;
+    font-size:14px;
+    font-family:"微软雅黑";
+    
+}
+/*购物车*/
+.hd-order{
+    width:310px;
+    height:41px;
+    position:absolute;
+    left:1024px;
+    top:60px;
+    
+}
+.hd-order ul{
+    height:41px;
+    li{
+    width:150px;
+    height:41px;
+    float:left;
+    margin-right:5px;
+    position:relative;
+    /*border:1px solid red; */
+    em{
+    position:absolute;
+    left:0;
+    bottom:42px;
+    width:52px;
+    height:24px;
+    background:url(../img/hd-car-pop.png) center no-repeat;
+    text-align: center;
+    line-height: 24px;
+    font-size:14px;
+    font-family: Arial;
+    color:#fff;
+display:none;
+}
+}
+}
+
+/*导航部分*/
+.naver{
+    width:1350px;
+    height:40px;
+    margin:0 auto;
+    background: url(../img/nav-bg.jpg) top center repeat-x;
+    
+}
+/*子导航部分*/
+.naver .navMore{
+    width:210px;
+    height:40px;
+    float:left;
+    text-align:center;
+    line-height:40px;
+    font-size: 14px;
+    font-family:"微软雅黑";
+    color:#fff;
+    background:#00a650 url(../img/jt-02.png) 170px 18px no-repeat;
+    position:relative;
+    z-index:999;
+} 
+.nav{
+    width:1122px;
+    height:40px;
+    float:right;
+        ul li {
+        width:220px;
+        height:40px;
+        float: left;
+        line-height:40px;
+        text-align:center;
+        font-size: 14px;
+        font-family: "微软雅黑";
+            a{
+            display:block;
+            height:40px;
+            color:#fff;
+            }
+        }
+      }  
+.nav ul li a:hover {color:#fff;}
+
+//未实现效果
+.navTops {color:#fff;}
+.navTops:hover {color:#fff;}
+
+.hd-ad {width:1350px;height:100px;margin:0 auto;}
+
+//content部分
+.page{
+    width:1350px;
+    margin:0 auto;
+    }
+    //左边导航
+    .TypeList{
+        height:470px;
+        width: 210px;
+        float: left;
+        position: relative;
+        z-index: 99;
+    }
+    .MenuList{
+        height:468px;
+        width:208px;
+        border:1px solid #DDDDDD;
+        background:#FFF;
+        ul li{
+            height:34px;
+            line-height:34px;
+            text-indent:20px;
+            font-weight:700px;
+            a{
+                display:block;
+                height:34px;
+                background:#ffffff url(../img/ml-01.png) 190px 14px no-repeat;
+                color:#535353; 
+            }
+            a.men-nav-icon{
+                display:inline-block;
+                *display:inline;
+                *zoom:1;
+                width:0;
+                margin-right:4px;
+            }
+            a.selected{
+                display:block;
+                height:34px;
+                background:#00a650 url(../img/ml-02.png) 190px 14px no-repeat;
+                color:#fff;
+                .menu-nav-icon{
+                    width:10px;
+                    -webkit-transition:width .2s linear;
+                    -moz-transition:width .2s linear;
+                    -o-transition:width .2s linear;
+                    transition:width .2s linear;
+                }
+            }
+            
+        }
+    }
+    
+//左边隐藏的导航
+.SubList {
+    background:repeat-y #fff url("../img/bg_line_t.jpg");
+    width:760px;
+    height:450px;
+    padding:10px;
+    border-left:1px solid #e4e4e4;
+    -webkit-box-shadow:2px 2px 5px #888;
+    -moz-box-shadow:2px 2px 5px #888;
+    box-shadow:2px 2px 5px #888;
+    overflow:hidden;
+    display:none;
+       
+    }
+.sublist-frame {
+                width:230px;
+                min-height:450px;
+                float:left;
+                margin-left:18px;
+                _display:inline;}
+.sublist-main {
+                margin-bottom:10px;
+                line-height:22px;
+                    h3 {
+                        height:38px;
+                        background:url(../img/box-tit-bg.jpg) bottom center repeat-x;
+                        line-height:32px;
+                        font-weight:700;
+                        font-size:12px;
+                        }
+                    dl {
+                        line-height:22px;
+                        padding:5px 4px 0;
+                            a:hover {
+                                text-decoration:underline;
+                                }
+                    }    
+ 
+                }
+
+//未实现效果                
+.naver .navMore .secTypeList {position:absolute;left:0;top:40px;z-index:9999;font-size:12px;font-family:"宋体";}
+.naver .navMore .sublist-main {text-align:left;}
+.naver .navMore .sublist-main h3 {text-align:left;color:#535353;}
+
+//中间轮播图和手风琴
+.slide-box{
+    width:680px;
+    height:470px; 
+    float:left;
+    margin-left:6px;
+    display:inline;
+  
+} 
+//banner 轮播图；
+#slider{
+  
+    width:680px;
+    height:250px;
+    position:relative;
+  
+    .bannerList{
+        width:680px;
+        height:250px;
+        overflow:hidden;
+        
+            .bannerImg{
+                width:680px;
+                height:250px;
+                li{
+                    width:680px;
+                    height:250px;
+                }
+            }
+    }
+    //轮播按钮
+    .bannerBtn{
+        position:absolute;
+        right:20px;
+        bottom:12px;
+        z-index: 9;
+        span{
+            display:block;
+            float:left;
+            margin-left:10px;
+            width:9px;
+            height:9px;
+            cursor:pointer;
+            _display:inline;
+        }
+    }
+    //小按钮图片
+    .dBanBtn{
+        background:url(../img/sd1.png) center center no-repeat;
+    }
+    .sBanBtn{
+        background:url(../img/sd2.png) center center no-repeat;
+    }
+}
+
+
+
+
