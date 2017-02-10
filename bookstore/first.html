@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>联合书店</title>
+		<link href="css/main.css" rel="stylesheet" type="text/css" /><!--css所有样式-->
+		
+		<script language="javascript" type="text/javascript" src="js/jquery-1.js"></script><!--购物车数量-->
+	</head>
+	<body>
+		<!--注册登录头-->
+		<div class="header-top">
+		    <div class="head-top">
+				<span><a>加入收藏</a>  |  <a>我喜欢的商品</a> | <a>我的消息</a></span>
+				[<a>会员登录</a>] [<a>会员注册</a>]
+			</div>
+   	    </div>
+   	    <!--logo部分-->
+   	    <script type="text/javascript" src="js/search.js"></script>
+
+   	    <div class="head">
+   	    	<span class="logo">
+   	    		<a><img alt="联合书城网上商城" src="img/logo.jpg" width="217" height="77"></a>
+   	    	</span>
+   	    	<div class="seach">
+   	    		<form id="search" method="get" action="">
+   	    			<div class="sea-inp-box">
+   	    				<input class="sea-inp" name="seastr" id="seastr" defval="请输入" value="请输入关键词" type="text">
+   	    			</div>
+   	    			<div class="sea-but">
+   	    				<input src="img/sea-but.jpg" alt="搜索" title="搜索" width="68" type="image" height="40">
+   	    			</div>
+   	    		</form>
+   	    	</div>
+   	    	    <span class="gj-sea">
+    			</span>
+    			<!--购物车部分-->
+    			<div class="hd-order" id="hd-order">
+    				<ul>
+    					<li>    </li>
+    					<li>
+    						<a><img alt="我的购物车" src="img/hd-car.jpg" width="150" height="41"></a>
+    						<em class="g_cart_counts" style="dieplay:none;">0</em><!--购物车商品数量-->
+    					</li>
+    				</ul>
+    			</div>
+    			<!--商品数量滑动特效-->
+    			<script type="text/javascript">
+    				$("#hd-order>ul>li").hover(function(){
+    					$(this).find("em").slideDown(200);/*em滑动方式显示出来*/
+    				},function(){
+    					$(this).find("em").stop(true,true).slideUp(200);/*stop可以立即结束动画。slideUp并可以使匹配的元素以“滑动”的方式隐藏起来*/
+    				});
+    			</script>
+   	    </div>
+   	    <!--导航部分-->
+   	    <div class="naver">
+   	    	<!--含有子导航-->
+   	    	<div class="navMore">
+   	    		<a class="navTops" target="_blank">浏览图书分类</a>
+   	    	</div>
+   	    	<!--不含子导航-->
+   	    	<div class="nav">
+   	    		<ul>
+   	    			<li>
+   	    				<a title="网站首页" target="_blank">网站首页</a>
+   	    			</li>
+   	    			<li>
+   	    				<a title="网站首页" target="_blank">图书榜</a>
+   	    			</li>
+   	    			<li>
+   	    				<a title="网站首页" target="_blank">预售</a>
+   	    			</li>
+   	    			<li>
+   	    				<a title="网站首页" target="_blank">促销精品</a>
+   	    			</li>
+   	    			<li>
+   	    				<a title="网站首页" target="_blank">签名本</a>
+   	    			</li>
+   	    			<li>
+   	    				<a title="网站首页" target="_blank">音像</a>
+   	    			</li>
+   	    		</ul>
+   	    	</div>
+   	    </div>
+	</body>
+</html>

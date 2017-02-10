@@ -1,0 +1,171 @@
+
+/*初始化css*/
+html {
+  font: 12px "宋体","SimSun","Arial Narrow";
+  color: #535353; 
+  }
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+  margin: 0;
+  padding: 0; } 
+ul, ol {
+		list-style:none;}
+li {
+	list-style-type:none;} 
+
+a {
+	outline:none;
+	text-decoration:none;
+	color:#535353;}
+a:hover {
+				text-decoration:none;
+				color:red;} 
+ /*初始化css结束*/
+body{
+	background:pink;
+}
+ /*注册 登录样式*/
+.header-top{
+	height:27px;
+	margin:0 auto;
+	border-bottom:1px solid yellow ;
+	background:#f5f4f0;
+} 
+.head-top{
+	width:1350px;
+	height:27px;
+	margin:0 auto;
+	line-height:27px;
+}
+.head-top span{
+	float:right;
+} 
+   /*logo样式*/
+.head{
+	width:1350px;
+	height:130px;
+	position:relative;
+}
+.logo{
+	position:absolute;
+	left:0;
+	top:30px;
+}  
+/*搜索框样式*/
+.seach{
+	width:648px;
+	height:48px;
+	background:url(../img/sea-bg.jpg) top center no-repeat;
+	position:absolute;
+	top:56px;
+	left:280px;
+}
+
+/*动态创建select样式未写*/
+
+
+.sea-inp-box{
+	width:424px;
+	height:40px;
+	float:left;
+	margin:4px;
+	display:inline;
+}
+.sea-inp{
+	width:420px;
+	height:40px;
+	padding-left:4px;
+	line-height:40px;
+	border:0;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color:#666;
+}
+.sea-but{
+	width:68px;
+	height:40px;
+	float:right;
+	margin:4px 5px 0 0;
+	display:inline;
+}
+.gj-sea{
+	position:absolute;
+	left:940px;
+	top:70px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	
+}
+/*购物车*/
+.hd-order{
+	width:310px;
+	height:41px;
+	position:absolute;
+	left:1024px;
+	top:60px;
+	
+}
+.hd-order ul{
+	height:41px;
+}
+.hd-order ul li{
+	width:150px;
+	height:41px;
+	float:left;
+	margin-right:5px;
+	position:relative;
+	/*border:1px solid red; */
+}
+.hd-order ul li em{
+	position:absolute;
+	left:0;
+	bottom:42px;
+	width:52px;
+	height:24px;
+	background:url(../img/hd-car-pop.png) center no-repeat;
+	text-align: center;
+	line-height: 24px;
+	font-size:14px;
+	font-family: Arial;
+	color:#fff;
+display:none;
+}
+/*导航部分*/
+.naver{
+	width:1350px;
+	height:40px;
+	margin:0 auto;
+	background: url(../img/nav-bg.jpg) top center repeat-x;
+	
+}
+/*子导航部分*/
+.naver .naveMore{
+	width:210px;
+	height:40px;
+	float:left;
+	text-align:center;
+	line-height:40px;
+	font-size: 14px;
+	font-family:"微软雅黑";
+	color:#fff;
+	background:red;
+} 
+.nav{
+	width:1122px;
+	height:40px;
+	float:right;
+}
+.nav ul li {
+	width:102px;
+	height:40px;
+	float: left;
+	line-height:40px;
+	text-align:center;
+	font-size: :14px;
+	font-family: "微软雅黑";
+}
+.nav ul li a{
+	display:block;
+	height:40px;
+	color:red;
+}
+.nav ul li a:hover {color:#fff;}
