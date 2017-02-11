@@ -447,7 +447,7 @@ display:none;
     margin-left:5px;}
 .tuang {
     height:212px;
-    border:1px solid #58c834;
+    border:1px solid #dddddd;
     margin-top:6px;
     position:relative;}
 .tg-top {
@@ -462,16 +462,241 @@ display:none;
 //文学部分
 
 .list-wx {height:340px;}
+    //文学title;
+.list-cont-top{
+    height:30px;
+    border:1px solid #dddddd;
+    position:relative;
+    background:#F5F4F0;
+        span{
+            float:right;
+            margin-right:12px;
+            line-height: 30px;
+            
+        }
+        span a,span a:hover{
+            color:#5097BC;
+        }
+     p{
+            width:104px;
+            height:32px;
+            position:absolute;
+            left:-1px;
+            top:-1px;
+            background:url(../img/lc-top.jpg) center center no-repeat;
+            line-height: 32px;
+            text-indent:20px;
+            font-size:16px;
+            color:#fff;
+            font-family: "微软雅黑";
+            
+        }   
+}
+//可滑动title
+.tab-top{
+    height:24px;
+        ul{
+            height:24px;
+            li{
+                height:24px;
+                float:left;
+                margin-right:6px;
+                line-height: 24px;
+                padding:0 20px;
+                color:#535353;
+                cursor:pointer;
+                
+                }
+            }
+        }
 
-.tab-top {height:24px;}
-.tab-top ul {height:24px;}
-.tab-top ul li {height:24px;float:left;margin-right:6px;line-height:24px;padding:0 20px;color:#535353;cursor:pointer;}
-.tab-top ul li.selected {background:#58c834;color:#fff;border-radius:12px;}
-.tab-cont-03 {height:220px;}
-.tab-cont-left {width:450px;height:220px;float:left;border-right:1px solid #dddddd;}
-.tab-cont-left img {float:left;border:1px solid #dddddd;margin-top:12px;}
-.tab-cont-left h2 {width:224px;line-height:30px;float:right;margin-right:20px;margin-top:12px;font-size:20px;font-family:"微软雅黑";_display:inline;}
-.tab-cont-left h5 {width:224px;line-height:30px;float:right;margin-right:20px;font-size:16px;font-family:"微软雅黑";color:#ff0000;_display:inline;}
-.tab-cont-left h5 em {color:#666;margin-left:10px;font-size:12px;}
-.tab-cont-left h5 em font {text-decoration:line-through;}
-.tab-cont-left p {width:224px;line-height:22px;float:right;margin-right:20px;padding-top:6px;}
+.tab-top ul li.selected{
+                   background:#58C834;
+                   color:#fff;
+                   border-radius:12px;}
+//<!--文学图文-->
+.tab-cont-03{
+    height:220px;
+}
+    //最左边
+.tab-cont-left{
+    width:450px;
+    height:220px;
+    float:left;
+    border-right:1px solid #dddddd;
+        img {
+            float:left;
+            border:1px solid #dddddd;
+            margin-top:12px;
+            }
+        h2{
+            width:224px;
+            line-height: 30px;
+            float:right;
+            margin-right: 20px;
+            margin-top: 12px;
+            font-size: 20px;
+            font-family: "微软雅黑";
+            display:inline;
+        }    
+        h5{
+            width:224px;
+            line-height:30px;
+            float:right;
+            margin-right:20px;
+            font-size:16px;
+            font-family:"微软雅黑";
+            color:#ff0000;
+            display:inline;
+                em {
+                    color:#666;
+                    margin-left:10px;
+                    font-size:12px;
+                        font {
+                            text-decoration:line-through;
+                            }
+                    }           
+        }
+         p {
+             width:224px;
+             line-height:22px;
+             float:right;
+             margin-right:20px;
+             padding-top:6px;
+             }
+}
+//右边
+.tabCont {
+    height:230px;
+      ul li {
+          height:230px;
+          width:132px;
+          float:left;
+          margin-left:40px;
+          display:inline;
+          img {
+              border:1px solid #dddddd;
+              }
+           p {
+               padding:4px 2px;
+               line-height:16px;
+               height:32px;
+               }
+            h5 {
+                font-size:16px;
+                color:#ff0000;
+                line-height:20px;
+                padding:0 2px;
+                font-family:"微软雅黑";
+                     em {
+                         margin-left:10px;
+                         color:#666;
+                         font-size:12px;
+                             font {
+                                 text-decoration:line-through;
+                                 }
+                         }
+                }
+          }  
+          
+          
+    }
+.tab-cont-right {
+        width:890px;
+        height:220px;
+        float:right;
+            ul {
+                margin-top:12px;
+                    li {
+                        height:220px;}}}
+ //文学下图
+ .ad-02 {
+        height:126px;
+            ul li {
+                width:440px;
+                height:126px;
+                float:left;
+                margin-right:15px;
+                display:inline;}
+            }
+ //社科标题
+ .list-alone-top {
+     height:34px;
+     line-height:34px;
+     background:#58c834;
+     text-indent:12px;
+     font-size:16px;
+     color:#fff;
+     font-family:"微软雅黑";
+        span {
+            float:right;
+            font-size:12px;
+            font-family:"宋体";
+            margin-right:12px;
+               
+            }
+    }
+.list-alone-top  span a,.list-alone-top  span a:hover {color:#fff;} 
+//社科下left  前面已写 list-alone-top
+//社科right；
+.list-scroll {
+    width:890px;
+    height:220px;
+    float:right;}
+    //左右箭头
+.list-scroll-left {
+    width:24px;
+    height:48px;
+    float:left;
+    margin:62px 0 0 12px;
+    background:url(../img/LefttArr-01.jpg) top center no-repeat;
+    cursor:pointer;
+    display:inline;}
+.list-scroll-right {
+    width:24px;
+    height:48px;
+    float:right;
+    margin:62px 12px 0 0;
+    background:url(../img/RightArr-01.jpg) top center no-repeat;
+    cursor:pointer;
+    display:inline;}
+    //滑动的图片
+.list-scroll-main {
+    width:780px;
+    height:208px;
+    float:left;
+    margin-left:20px;
+    margin-top:12px;
+    display:inline;
+        li {
+            height:208px;
+            width:132px;
+            float:left;
+            margin-right:30px;
+            display:inline;
+                img {border:1px solid #dddddd;float:none;}
+                 p {padding:4px 2px;line-height:16px;height:32px;}
+                  h5 {width:100%;font-size:16px;color:#ff0000;line-height:20px;padding:0 2px;font-family:"微软雅黑";
+                       em {margin-left:10px;color:#666;font-size:12px;
+                            font {text-decoration:line-through;}
+                       }
+                  }
+            }
+    }
+   
+ ///*生活left*/
+.list-ys-left {
+    width:910px;
+    height:460px;
+    float:left;}
+.tab-cont-04 {height:auto;}
+//生活 right;
+.ad-04 {
+        width:370px;
+        float:right;
+        margin-right:40px;
+        display:inline;
+            ul li {height:130px;margin-bottom:10px;}
+}
+
+ 
