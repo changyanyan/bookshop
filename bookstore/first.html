@@ -10,6 +10,8 @@
 		<script language="javascript" type="text/javascript" src="js/simSelect.js"></script><!--动态创建左边导航div ul-->
 		<script language="javascript" type="text/javascript" src="js/MList.js"></script><!--左边导航效果-->
 		<script language="javascript" type="text/javascript" src="js/banner.js"></script> <!---banner轮播--->
+		<script language="javascript" type="text/javascript" src="js/PicCut.js"></script><!---banner手风琴--->
+		<script language="javascript" type="text/javascript" src="js/ScrollPic.js"></script>
 	</head>
 	<body>
 		<!--注册登录头-->
@@ -73,13 +75,13 @@
    	    				<a title="图书榜" target="_blank">图书榜</a>
    	    			</li>
    	    			<li>
-   	    				<a title="预售" target="_blank">预售</a>
+   	    				<a title="预售" target="_blank">促销精品</a>
    	    			</li>
    	    			<li>
-   	    				<a title="促销精品" target="_blank">促销精品</a>
+   	    				<a title="促销精品" target="_blank">签名本</a>
    	    			</li>
    	    			<li>
-   	    				<a title="签名本" target="_blank">签名本</a>
+   	    				<a title="签名本" target="_blank">音像</a>
    	    			</li>
    	    		</ul>
    	    	</div>
@@ -161,7 +163,7 @@
 					MenuList_01.addLabel('list-item-12','SubList-12');
 					MenuList_01.initialize();		
 			</script>
-   	    </div>
+   	    
    	    <!--banner部分轮播图和手风琴-->
    	    <div class="slide-box">
    	    	<!--轮播部分-->
@@ -255,12 +257,12 @@
 						<p><h1MicrosoftYaHei';">	关于中国，关于社会，梁晓声二十年思考结晶。思考国家责任，呼唤社会良知。</h...						</p>
 					</div>
 				</div>
-                				<div class="list-cut-box" id="list-05">
+                <div class="list-cut-box" id="list-05">
 					<div class="list-left">
 						<a href="recommend_view.php?id=96178" title="签名本  历代经济变革得失"><span>签名本  历代经济</span></a>
 					</div>
 					<div class="list-right">
-						<a href="recommend_view.php?id=96178" title="签名本  历代经济变革得失"><img class="pic-cut PicAuto" _src="/upfile/isClass/pic/20141001143041-432943680.jpg" width="148" height="148" /></a>
+						<a href="recommend_view.php?id=96178" title="签名本  历代经济变革得失"><img class="pic-cut PicAuto" src="img/jingji.jpg" width="148" height="148" /></a>
 						<h4><a href="recommend_view.php?id=96178" title="签名本  历代经济变革得失">签名本  历代经济变革得失</a></h4>
 						<h5>￥29.40  <em><font>￥42.00</font></em></h5>
 						<p>
@@ -273,7 +275,7 @@
 						<a href="recommend_view.php?id=96176" title="签名本 幸福要回答"><span>签名本 幸福要回答</span></a>
 					</div>
 					<div class="list-right">
-						<a href="recommend_view.php?id=96176" title="签名本 幸福要回答"><img class="pic-cut PicAuto" _src="/upfile/isClass/pic/20141104090314-247793208.jpg" width="148" height="148" /></a>
+						<a href="recommend_view.php?id=96176" title="签名本 幸福要回答"><img class="pic-cut PicAuto" src="img/xingfu.jpg" width="148" height="148" /></a>
 						<h4><a href="recommend_view.php?id=96176" title="签名本 幸福要回答">签名本 幸福要回答</a></h4>
 						<h5>￥24.50  <em><font>￥35.00</font></em></h5>
 						<p>
@@ -281,6 +283,46 @@
 					</div>
 				</div>
 			</div>
+			<!--琴键中图片js数组-->
+			<script type="text/javascript">
+			var picCut_01 = new PicCut();
+				picCut_01.PicContId = 'slide-box';
+				picCut_01.PicCutIdArr = ['list-01','list-02','list-03','list-04','list-05','list-06'];
+				picCut_01.showIndex = 1;
+				picCut_01.initialize();
+			</script>	
    	    </div>
+   	    <!--右边公司简介-->
+   	    <div class="adv-list">
+			<div class="ad-01">
+				<a href="http://lhsc.com.cn/about.php" title="公司简介" target="_blank"><img src="img/gongsi.jpg" width="448" height="250"></a>
+			</div>
+			<div class="tuang">
+				<h4 class="tg-top">今日优惠</h4>
+				<div class="m20"></div>
+                
+                <center>暂无信息</center>                
+			</div>
+		</div>
+		<!--文学部分-->
+		<div class="m6"></div>
+		
+			<div class="list-wx">
+				<div class="list-cont-top">
+					<span><a href="http://lhsc.com.cn/product.php?tid=5448" title="查看更多" target="_blank">查看更多</a></span>
+					<p>文学</p>
+				</div>
+				<div class="m20"></div>
+				<div class="tab-top">
+					<ul id="opationBox-03">
+                		<li class="selected">小说</li>
+						<li>散文诗歌</li>
+						<li>古典文学</li>
+						<li>漫画笑话</li>	
+                   </ul>
+				</div>
+			</div><!--文学部分结束-->
+			
+	</div>	<!--page部分结束-->
 	</body>
 </html>
