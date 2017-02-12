@@ -699,4 +699,105 @@ display:none;
             ul li {height:130px;margin-bottom:10px;}
 }
 
- 
+//预售style
+.book-sales {
+    height:260px;
+        ul li {
+            height:260px;
+            width:176px;
+            float:left;
+            margin-left:42px;
+            display:inline;
+            position:relative;
+                img {
+                    border:1px solid #dddddd;}
+                h4 {
+                    line-height:20px;
+                    padding:3px 2px;
+                    height:40px;}  
+                h5 {
+                    font-size:16px;
+                    color:#ff0000;
+                    line-height:20px;
+                    padding:0 2px;
+                    font-family:"微软雅黑";
+                        i {
+                            margin-left:10px;
+                            font-style:normal;
+                            color:#666;
+                            font-size:12px;
+                                font {
+                                    text-decoration:line-through;
+                                    }
+                            }
+                    }
+                em {
+                    width:40px;
+                    height:52px;
+                    display:block;
+                    background:url(../img/cuxiao.png) top center no-repeat;//、、、、
+                    position:absolute;
+                    top:0;
+                    right:6px;}      
+            }
+        }
+//预售结束
+
+//流程style
+.guide {
+  width: 1350px;
+  margin: 0 auto;
+  background: url(../img/guide-hx.jpg) top center repeat-x;
+}
+
+.guide-list {
+  width: 180px;
+  float: left;
+  margin-left: 88px;
+  display: inline;
+  h4 {
+    height: 29px;
+  }
+  ul {
+    padding-top: 10px;
+    li {
+      line-height: 22px;
+      margin-left: 12px;
+      background: url(../img/ad-01.jpg) left center no-repeat;
+      padding-left: 8px;
+    }
+  }
+}
+//底部导航
+.ftNaver {
+  height: 38px;
+  margin: 0 auto;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  line-height: 38px;
+}
+
+.ftNav {
+  width: 1000px;
+  height: 38px;
+  margin: 0 auto;
+  text-align: center;
+  span {
+    margin: 0 12px;
+  }
+}
+//footer
+.foot {
+  width: 1000px;
+  height: 160px;
+  margin: 0 auto;
+  position: relative;
+  ul {
+    padding-top: 28px;
+    li {
+      line-height: 22px;
+      text-align: center;
+    }
+  }
+}
+//footer结束

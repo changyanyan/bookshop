@@ -767,4 +767,87 @@ body {
     height: 130px;
     margin-bottom: 10px; }
 
+.book-sales {
+  height: 260px; }
+  .book-sales ul li {
+    height: 260px;
+    width: 176px;
+    float: left;
+    margin-left: 42px;
+    display: inline;
+    position: relative; }
+    .book-sales ul li img {
+      border: 1px solid #dddddd; }
+    .book-sales ul li h4 {
+      line-height: 20px;
+      padding: 3px 2px;
+      height: 40px; }
+    .book-sales ul li h5 {
+      font-size: 16px;
+      color: #ff0000;
+      line-height: 20px;
+      padding: 0 2px;
+      font-family: "微软雅黑"; }
+      .book-sales ul li h5 i {
+        margin-left: 10px;
+        font-style: normal;
+        color: #666;
+        font-size: 12px; }
+        .book-sales ul li h5 i font {
+          text-decoration: line-through; }
+    .book-sales ul li em {
+      width: 40px;
+      height: 52px;
+      display: block;
+      background: url(../img/cuxiao.png) top center no-repeat;
+      position: absolute;
+      top: 0;
+      right: 6px; }
+
+.guide {
+  width: 1350px;
+  margin: 0 auto;
+  background: url(../img/guide-hx.jpg) top center repeat-x; }
+
+.guide-list {
+  width: 180px;
+  float: left;
+  margin-left: 88px;
+  display: inline; }
+  .guide-list h4 {
+    height: 29px; }
+  .guide-list ul {
+    padding-top: 10px; }
+    .guide-list ul li {
+      line-height: 22px;
+      margin-left: 12px;
+      background: url(../img/ad-01.jpg) left center no-repeat;
+      padding-left: 8px; }
+
+.ftNaver {
+  height: 38px;
+  margin: 0 auto;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  line-height: 38px; }
+
+.ftNav {
+  width: 1000px;
+  height: 38px;
+  margin: 0 auto;
+  text-align: center; }
+  .ftNav span {
+    margin: 0 12px; }
+
+.foot {
+  width: 1000px;
+  height: 160px;
+  margin: 0 auto;
+  position: relative; }
+  .foot ul {
+    padding-top: 28px; }
+    .foot ul li {
+      line-height: 22px;
+      text-align: center; }
+
 /*# sourceMappingURL=main.css.map */
